@@ -61,7 +61,7 @@ Entity IDs are based on the printer's MAC address (e.g. `aa_bb_cc_dd_ee_ff`).
 |--------|---------------------|------|-------------|
 | `chamber_temp` | `sensor.prusa_buddy_aa_bb_cc_dd_ee_ff_chamber_temp` | Sensor | Chamber temperature in °C |
 | `xbe_fan` | `sensor.prusa_buddy_aa_bb_cc_dd_ee_ff_xbe_fan_1` | Sensor | Chamber fan speed in RPM — one entity per fan (e.g. `_1`, `_2`) |
-| `door_sensor` | `binary_sensor.prusa_buddy_aa_bb_cc_dd_ee_ff_door_sensor` | Binary sensor | Door open/closed sensor value |
+| `door_sensor` | `binary_sensor.prusa_buddy_aa_bb_cc_dd_ee_ff_door_sensor` | Binary sensor | Door open/closed sensor |
 
 ## Sensors
 
