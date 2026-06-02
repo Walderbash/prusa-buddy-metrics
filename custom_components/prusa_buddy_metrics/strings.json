@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Prusa Buddy Metrics",
+        "description": "Configure the UDP listener for your Prusa Buddy printer.",
+        "data": {
+          "udp_port": "UDP port"
+        }
+      }
+    },
+    "error": {
+      "invalid_port": "Port must be between 1 and 65535."
+    },
+    "abort": {
+      "already_configured": "A listener on this port is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update settings",
+        "data": {
+          "udp_port": "UDP port"
+        }
+      }
+    },
+    "error": {
+      "invalid_port": "Port must be between 1 and 65535."
+    }
+  }
+}
